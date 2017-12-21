@@ -1,0 +1,4 @@
+C:\Users\unium.INFORMATICS\Documents\novlehsop\lessons_k-noVlehsoP\06. if\жир\жир\bin\Release\жир.exe
+C:\Users\unium.INFORMATICS\Documents\novlehsop\lessons_k-noVlehsoP\06. if\жир\жир\bin\Release\жир.pdb
+C:\Users\unium.INFORMATICS\Documents\novlehsop\lessons_k-noVlehsoP\06. if\жир\жир\obj\x86\Release\жир.exe
+C:\Users\unium.INFORMATICS\Documents\novlehsop\lessons_k-noVlehsoP\06. if\жир\жир\obj\x86\Release\жир.pdb
