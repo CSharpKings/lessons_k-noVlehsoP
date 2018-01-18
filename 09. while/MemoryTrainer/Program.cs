@@ -13,11 +13,14 @@ namespace MemoryTrainer {
 
 		static void GuessNumber() {
 			Random rand = new Random();
-
+            int maxik = 100;
 			while (true) {
-				int number = rand.Next(100);
-
-				Console.WriteLine("Запомните число: " + number);
+                
+                int number = rand.Next(maxik);
+             
+                
+				
+                Console.WriteLine("Запомните число: " + number);
 				Thread.Sleep(2000);
 				Console.Clear();
 
@@ -27,9 +30,11 @@ namespace MemoryTrainer {
 
 				if (guess == number) {
 					Console.WriteLine("Вы угадали!");
+                    maxik = maxik+200;
 				}
 				else {
 					Console.WriteLine("Вы ошиблись ='(");
+                    maxik = maxik-100;
 				}
 				Thread.Sleep(1000);
 				Console.Clear();
