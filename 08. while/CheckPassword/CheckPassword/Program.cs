@@ -7,21 +7,24 @@ using System.Threading.Tasks;
 namespace CheckPassword {
 	class Program {
 		static void Main(string[] args) {
-			string password = "Супер пароль!";
-			Console.WriteLine("Чтобы пользоваться моей программой, введи пароль!");
-			string answer = Console.ReadLine();
-			
-			if (answer == password) {
-				Console.WriteLine("Ок, правильно. Жми Enter, чтобы пройти!");
-				Console.ReadLine();
-				Console.Clear();
+			string password = "Суп гороховый хочу жрать пора за абхазию воевать!";
+			while(true)
+            {
+                Console.WriteLine("Чтобы пользоваться моей программой, введи пароль!");
+			    string answer = Console.ReadLine();
+            
+                if (answer == password)
+                {
+                    Console.WriteLine("Ок, правильно. Жми Enter, чтобы пройти!");
+                    Console.ReadLine();
+                    Console.Clear();
 
-				StartProgram();
-			}
-			else {
-				Console.WriteLine("Неправильно! Хаха, ты не пройдешь!");
-				Console.ReadLine();
-				Environment.Exit(0);
+                    StartProgram();
+                }
+                else
+                {
+                    Console.WriteLine("трай эген!");
+                }
 			}
 		}
 
